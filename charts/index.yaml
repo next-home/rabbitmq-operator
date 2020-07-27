@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  rabbitmq:
+  - apiVersion: v2
+    appVersion: 3.8.5
+    created: "2020-07-27T17:49:02.272801+05:30"
+    description: RabbitMQ Cluster Kubernetes Operator
+    digest: 9816dfd16785c42f2f507f1bd73befe8773785e70b30e2d8aba1a58073242ca7
+    home: https://www.rabbitmq.com
+    icon: https://www.rabbitmq.com/img/rabbitmq_logo_strap.png
+    keywords:
+    - rabbitmq
+    - message queue
+    - AMQP
+    name: rabbitmq
+    urls:
+    - rabbitmq-0.8.0.tgz
+    version: 0.8.0
+  rabbitmq-cluster-operator:
+  - apiVersion: v2
+    created: "2020-07-27T17:49:02.275437+05:30"
+    description: RabbitMQ Cluster Operator
+    digest: 256096fc5c807be1390a8c93716d6cc96d72b8db74a6c4c384d8bde1aa914733
+    home: https://www.rabbitmq.com
+    icon: https://www.rabbitmq.com/img/rabbitmq_logo_strap.png
+    keywords:
+    - rabbitmq
+    - operator
+    - message queue
+    - AMQP
+    name: rabbitmq-cluster-operator
+    urls:
+    - rabbitmq-cluster-operator-0.8.0.tgz
+    version: 0.8.0
+generated: "2020-07-27T17:49:02.271101+05:30"
